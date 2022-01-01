@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace SalesMarketing.Infrastructure.EventBus
 {
-    public class SalesMarketingEventBus : InMemoryEventBus, ISalesMarketingEventBus
-    {
-        public SalesMarketingEventBus(OutboxDbContext dbContext) : base(dbContext)
-        {
-        }
-    }
+    //public class SalesMarketingEventBus : InMemoryEventBus, ISalesMarketingEventBus
+    //{
+    //    public SalesMarketingEventBus(OutboxDbContext dbContext) : base(dbContext)
+    //    {
+    //    }
+    //}
 }

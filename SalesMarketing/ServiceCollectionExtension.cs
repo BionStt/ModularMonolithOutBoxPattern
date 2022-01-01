@@ -24,7 +24,7 @@ namespace SalesMarketing
 
        
            
-            services.AddScoped<ISalesMarketingEventBus, SalesMarketingEventBus>();
+          // services.AddScoped<ISalesMarketingEventBus, SalesMarketingEventBus>();
 
             return services;
 

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Outbox.Infrastructure.Context;
+using Outbox.WorkerProcess;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,8 @@ namespace Outbox
         public static IServiceCollection AddOutBoxModule(this IServiceCollection services, string connectionString)
         {
             services.AddDbContext<OutboxDbContext>(options => options.UseSqlServer(connectionString));
+            services.AddHostedService<OutBoxWorker>();
+
             return services;
         }
     }

@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD", "DDD\DDD.csproj", "{7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationEvent", "IntegrationEvent\IntegrationEvent.csproj", "{DEBE71CD-1282-4429-A7D3-9B03D9360245}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus", "EventBus\EventBus.csproj", "{6F8EE448-09E4-486E-9AD0-AA2D0708626E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus", "EventBus\EventBus.csproj", "{6F8EE448-09E4-486E-9AD0-AA2D0708626E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

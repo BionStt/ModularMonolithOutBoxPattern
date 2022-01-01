@@ -27,7 +27,7 @@ builder.Services.AddIntegrationEventModule();
 
 
 
-builder.Services.AddHostedService<OutBoxWorker>();
+//builder.Services.AddHostedService<OutBoxWorker>(); //pindah kedalam module
 
 
 builder.Services.AddControllersWithViews().AddNewtonsoftJson(x =>
